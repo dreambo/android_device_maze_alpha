@@ -43,16 +43,12 @@ qemu.hw.mainkeys=0
 
 ro.kernel.zio=38,108,105,16
 
-# Disable dirty region for Mali
-# debug.hwui.render_dirty_regions=false
-
 ro.sf.lcd_density=480
 
 # performance
 ro.mtk_perf_simple_start_win=1
 ro.mtk_perf_fast_start_win=1
 ro.mtk_perf_response_time=1
-
 #
 # ADDITIONAL_BUILD_PROPERTIES
 #
@@ -62,26 +58,19 @@ ro.config.notification_sound=Curiosity.ogg
 ro.config.sms_notifi_sound=Epic_Sines.ogg
 ro.config.sms_notifi_sound_2=Epic_Sines.ogg
 ro.config.alarm_alert=Aesthete.ogg
-
+persist.camera.HAL3.enabled=1
 ro.carrier=OUKITEL
-
 ro.com.google.clientidbase=android-hct
 ro.com.google.clientidbase.am=android-hct
 ro.com.google.clientidbase.ms=android-hct
-
 ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html
 ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html
-
 ro.opa.eligible_device=true
 ro.setupwizard.mode=OPTIONAL
 ro.com.google.gmsversion=7.1_r4
 ro.bug2go.magickeys=24,26
 ro.config.max_starting_bg=8
 ro.config.vc_call_vol_steps=7
-
-# persist.camera.expose.aux=1
-# camera.aux.packagelist=com.motorola.cameraonemtk,com.motorola.motocit,com.mediatek.camera
-
 ro.mediatek.chip_ver=S01
 ro.mediatek.platform=MT6757
 ro.telephony.sim.count=2
@@ -106,8 +95,6 @@ ro.mediatek.version.branch=alps-mp-n1.mp5
 ro.mediatek.version.release=OUKITEL_MIX_2_V24_20180112
 ro.mediatek.version.sdk=4
 ro.num_md_protocol=2
-
-# persist.radio.multisim.config=dsds
 
 ro.mtk_besloudness_support=1
 ro.mtk_wapi_support=1
@@ -418,6 +405,12 @@ ro.expect.recovery_id=0x859253631d999f922c87782782de8192e5ebe02f0000000000000000
 # ro.mot.build.product.increment=34
 # ro.mot.build.version.release=26.34
 # ro.longcheer.sku=AP
+# persist.radio.multisim.config=dsds
+# persist.camera.expose.aux=1
+# camera.aux.packagelist=com.motorola.cameraonemtk,com.motorola.motocit,com.mediatek.camera
+
+# Disable dirty region for Mali
+# debug.hwui.render_dirty_regions=false
 
 # Runin
 # ro.build.device.ninur=64687
