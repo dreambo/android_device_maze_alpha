@@ -378,7 +378,7 @@ ro.lct.performance_enable=1
 
 persist.debug.wfd.enable=1
 persist.sys.fontsize=2
-sys.display-size=3840x2160
+sys.display-size=2160x1080
 
 debug.performance.tuning=1
 video.accelerate.hw=1
