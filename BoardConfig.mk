@@ -15,10 +15,10 @@
 #
 
 # Device path
-LOCAL_PATH := device/oukitel/mix_2
+LOCAL_PATH := device/oukitel/mix2
 
 # Device vendor board
--include vendor/oukitel/mix_2/BoardConfigVendor.mk
+-include vendor/oukitel/mix2/BoardConfigVendor.mk
 
 #######################################################################
 
@@ -56,7 +56,7 @@ androidboot.selinux=permissive
 TARGET_CPU_MEMCPY_OPT_DISABLE := true
 
 # EGL
-BOARD_EGL_CFG := vendor/oukitel/mix_2/vendor/lib/egl/egl.cfg
+BOARD_EGL_CFG := vendor/oukitel/mix2/vendor/lib/egl/egl.cfg
 USE_OPENGL_RENDERER := true
 BOARD_EGL_WORKAROUND_BUG_10194508 := true
 
@@ -188,7 +188,7 @@ TARGET_NO_BOOTLOADER := true
 BOARD_CHARGER_SHOW_PERCENTAGE := true
 
 # RIL
-BOARD_RIL_CLASS := ../../../device/oukitel/mix_2/ril
+BOARD_RIL_CLASS := ../../../device/oukitel/mix2/ril
 BOARD_CONNECTIVITY_MODULE := conn_soc
 
 # Seccomp filter

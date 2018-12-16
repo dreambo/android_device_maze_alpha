@@ -18,18 +18,18 @@
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, $(LOCAL_PATH)/device_mix_2.mk)
+$(call inherit-product, $(LOCAL_PATH)/device_mix2.mk)
 
 # Device display
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
 
 # Device identifier
-PRODUCT_BRAND := OUKITEL
-PRODUCT_DEVICE := MIX_2
-PRODUCT_MANUFACTURER := OUKITEL
-PRODUCT_MODEL := MIX 2
-PRODUCT_NAME := lineage_MIX_2
-PRODUCT_RELEASE_NAME := MIX_2
+PRODUCT_BRAND := oukitel
+PRODUCT_DEVICE := mix2
+PRODUCT_MANUFACTURER := oukitel
+PRODUCT_MODEL := mix2
+PRODUCT_NAME := lineage_mix2
+PRODUCT_RELEASE_NAME := mix2
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=lineage_MIX_2
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=lineage_mix2
