@@ -157,6 +157,8 @@ persist.mtk_nlp_switch_support=1
 
 persist.mtk_vilte_support=1
 ro.mtk_vilte_ut_support=0
+
+# VoLTE
 persist.mtk_volte_support=1
 persist.mtk.volte.enable=1
 
