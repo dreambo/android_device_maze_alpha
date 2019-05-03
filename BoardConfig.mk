@@ -1,5 +1,5 @@
 # Device path
-LOCAL_PATH := device/oukitel/mix2
+LOCAL_PATH := device/maze/Alpha
 
 # Architecture
 TARGET_ARCH := arm64
@@ -19,7 +19,7 @@ TARGET_BOARD_PLATFORM := mt6757
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true
-TARGET_BOOTLOADER_BOARD_NAME := OUKITEL_MIX_2_V
+TARGET_BOOTLOADER_BOARD_NAME := MAZE_ALPHA_V
 
 # Kernel
 BOARD_KERNEL_BASE := 0x40078000
@@ -88,4 +88,3 @@ TW_EXTRA_LANGUAGES := true
 TW_DEFAULT_LANGUAGE := en
 TW_NO_SCREEN_BLANK := true
 TW_NO_BATT_PERCENT := false
-

@@ -1,7 +1,7 @@
-ro.product.brand=OUKITEL
-ro.product.name=MIX_2
-ro.product.device=MIX_2
-ro.build.product=MIX_2
+ro.product.brand=MAZE
+ro.product.name=ALPHA
+ro.product.device=ALPHA
+ro.build.product=ALPHA
 #ro.treble.enabled=flase
 #sys.usb.controller=a800000.dwc3
 #sys.usb.rndis.func.name=rndis_bam

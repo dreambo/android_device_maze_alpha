@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := mix2
+PRODUCT_RELEASE_NAME := alpha
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -8,11 +8,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_BRAND := OUKITEL
-PRODUCT_DEVICE := mix2
-PRODUCT_MANUFACTURER := OUKITEL
-PRODUCT_MODEL := mix2
-PRODUCT_NAME := omni_mix2
+PRODUCT_BRAND := MAZE
+PRODUCT_DEVICE := alpha
+PRODUCT_MANUFACTURER := MAZE
+PRODUCT_MODEL := alpha
+PRODUCT_NAME := omni_alpha
 
 # enable stock zip packages flash
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
