@@ -1,8 +1,4 @@
-# TWRP device tree for Oukitel Mix 2
-
-## About Device
-
-![OUKITEL MIX 2](https://www.oukitelcentral.com/wp-content/uploads/2017/11/oukitel-mix-2.png)
+# TWRP device tree for Maze Alpha
 
 ### Specifications
 
@@ -20,7 +16,7 @@ Secondary Camera | 13 MP
 
 ---
 
-This device tree can be used to build twrp for Oukitel Mix 2
+This device tree can be used to build twrp for Maze Alpha
 
 
 ## Build Instructions
