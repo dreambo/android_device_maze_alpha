@@ -23,6 +23,6 @@ This device tree can be used to build twrp for Maze Alpha
 ```sh
 export ALLOW_MISSING_DEPENDENCIES=true
 . build/envsetup.sh
-lunch omni_mix2-eng
+lunch omni_alpha-eng
 mka recoveryimage
 ```
