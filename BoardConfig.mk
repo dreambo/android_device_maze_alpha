@@ -1,5 +1,5 @@
 # Device path
-LOCAL_PATH := device/maze/Alpha
+LOCAL_PATH := device/maze/alpha
 
 # Architecture
 TARGET_ARCH := arm64
