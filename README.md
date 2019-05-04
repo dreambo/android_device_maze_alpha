@@ -21,7 +21,11 @@ This device tree can be used to build twrp for Maze Alpha
 
 ## Build Instructions
 ```sh
+repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
+git clone https://github.com/dreambo/android_device_maze_alpha device/maze/alpha
+repo sync
 export ALLOW_MISSING_DEPENDENCIES=true
+export LC_ALL=C
 . build/envsetup.sh
 lunch omni_alpha-eng
 mka recoveryimage
